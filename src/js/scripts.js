@@ -14,8 +14,8 @@ if(btnVal === "=" && btnVal !== ""){
     // if DE is clicked, remove the last charachter from the output.
     output = output.toString().slice(0, -1);
 }else{
-    // if output id empty and button is special chars then return.
-    if(output ==="" && specialChars.includes(btnVal)) return;
+    // if output is empty and button is special chars then return.
+    if(output === "" && specialChars.includes(btnVal)) return;
     output += btnVal;
 }
     display.value = output;
