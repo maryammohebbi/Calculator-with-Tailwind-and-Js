@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./build/tailwind.css">
+</head>
+<body>
+    <!-- Calculator -->
+    <div class="m-3">
+        <div class="bg-slate-900 flex flex-col max-w-sm sm:max-w-md p-4 mx-auto rounded-2xl border border-slate-400 shadow-2xl shadow-slate-500 mt-14">
+            <!-- input -->
+            <input type="text" id="calc-input" class="w-full mb-3 p-5 rounded-lg bg-slate-200">
+            <!-- buttons - numbers and operators -->
+            <div class="w-full">
+                <div class="flex">
+                    <button class="operator border border-slate-700 bg-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="de">DE</button>
+                    <button class="operator border border-slate-700 bg-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="**">^</button>
+                    <button class="operator border border-slate-700 bg-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="%">%</button>
+                    <button class="border border-slate-700 bg-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="c">C</button>
+                </div>
+                <div class="flex">
+                    <button class="border border-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="7">7</button>
+                    <button class="border border-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="8">8</button>
+                    <button class="border border-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="9">9</button>
+                    <button class="operator border border-slate-700 bg-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="/">÷</button>
+                </div>
+                <div class="flex">
+                    <button class="border border-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="4">4</button>
+                    <button class="border border-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="5">5</button>
+                    <button class="border border-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="6">6</button>
+                    <button class="operator border border-slate-700 bg-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="*">X</button>
+                </div>
+                <div class="flex">
+                    <button class="border border-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="1">1</button>
+                    <button class="border border-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="2">2</button>
+                    <button class="border border-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="3">3</button>
+                    <button class="operator border border-slate-700 bg-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="-">-</button>
+                </div>
+                <div class="flex">
+                    <button class="border border-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="0">0</button>
+                    <button class="border border-slate-700 bg-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value=".">.</button>
+                    <button class="operator border border-slate-700 bg-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="=">=</button>
+                    <button class="operator border border-slate-700 bg-slate-700 text-slate-400 font-bold p-2 flex-1 rounded-2xl shadow-md m-1" value="+">+</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="../src/js/scripts.js"></script>
+</body>
+</html>
